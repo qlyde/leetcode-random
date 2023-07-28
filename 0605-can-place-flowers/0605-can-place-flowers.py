@@ -13,7 +13,7 @@ class Solution:
             if l and r:
                 i += 2
                 n -= 1
-                if n == 0:
+                if not n:
                     return True
             else:
                 i += 1
