@@ -4,8 +4,7 @@ class Solution:
         for n in nums:
             if n - 1 not in st:
                 l = 0
-                while n in st:
-                    n += 1
+                while n + l in st:
                     l += 1
                 ret = max(ret, l)
         return ret
