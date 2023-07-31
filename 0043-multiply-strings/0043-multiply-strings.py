@@ -25,3 +25,4 @@ class Solution:
             zeroes += 1
         return str(sum([int(p) for p in ps]))
 
+
