@@ -24,3 +24,4 @@ class Solution:
             ps.append(product[::-1] + "0" * zeroes)
             zeroes += 1
         return str(sum([int(p) for p in ps]))
+
