@@ -24,4 +24,3 @@ class Solution:
                 ret.append(s[start:start + 10])
             seen[h] += 1
         return ret
-
