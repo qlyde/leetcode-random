@@ -32,4 +32,3 @@ class Solution:
 
         backtrack(0)
         return ret
-
